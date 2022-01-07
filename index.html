@@ -5,18 +5,46 @@
     <title>Who am I?</title>
     <style>
       body {
-        background-color: #FAC000;
+        background-color: orange;
+      }
+
+      body > h1, h2, h3 {
+        text-shadow: 2px 2px black;
+        color:ivory;
+        text-align: center; 
+
+        width: 50%; 
+        box-shadow: 1px 2px black;
+        border-style: outset; 
+        border-radius: 15%
+      }
+
+      body > p{
+        color: ivory;
+        /* text-shadow: 1px 0 black, 1px, 1px, 1px; */
+        text-shadow: -1px 0 orange, 0 1px orange, 1px 0 black, 0 -1px red;
+        text-align:justify; 
+        
+
+        border-style: ridge; 
+        box-shadow: 1px 2px black;
+        padding: 5px; 
+        border-radius: 15%
       }
  
 
       #guy_fieri  {
-        display: inline;
+        display: flex;
         border-radius: 45%;
         border-image-slice:50px ;
+        flex-shrink:inherit;
+        flex:40%;
       }
 
       ui {
-        display: inline;
+        display: flex;
+        flex: 40%;    
+        
       }
 
       li {
@@ -27,8 +55,12 @@
 
         padding: 1.5mm;
         margin-top: 0.5%;
+        margin-bottom: 0.5%;
         /* border-style: outset; */
         border-style:dotted;
+        border-color: black red;
+        
+        box-shadow:  10px 12px 10px 1px black;
         border-radius: 12mm;
         width: 30%;
       }
@@ -56,12 +88,12 @@
   
 
   <body style="border-style: double; border-color: black; border-width: 8px; padding: 10px; border-radius: 5%;" >
-    <h1 style="margin-left: 25%; text-align: center;  width: 50%; border-style: outset; border-radius: 15%;">WHO AM I?</h1>
+    <h1 style="margin-left: 25%;">WHO AM I?</h1>
 
-    <h2 style="text-align: center; border-style: outset; border-radius: 15%">Adrian Perez</h2>
+    <h2>Adrian Perez</h2>
 
-    <h3 style="text-align: center; width: 50%; border-style: outset; border-radius: 15%">What do I do with my free time?</h3>
-    <p style="text-align:justify; border-style: ridge; padding: 5px; border-radius: 15%">
+    <h3>What do I do with my free time?</h3>
+    <p>
       Cause of the pandemic I spend way too much time <s>and money</s> on my computer. For the amount of time I spend looking at these screens I should probably know more than what free games are available on Steam. My goal is to create a Guy Fieri RPG. It will be called...
     </p>
 
